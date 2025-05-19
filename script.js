@@ -38,7 +38,7 @@ function main() {
  * Use a FOR LOOP based on the length of shoppingList[] 
  * Inside the loop, create an itemPrice subarray (create it inside the loop because you want it empty)
  * Push the shoppingList item into that itemPrice subarray
- * Push the pricesArray item with the same index into that itemPrice subArray
+ * Push the priceList item with the same index into that itemPrice subArray
  * Push the itemPrice subarray into the pricesArray 
  * You might want to console.log the pricesArray after the loop before you return it.
  * Total lines in my code: 12
