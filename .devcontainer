@@ -1,7 +1,11 @@
 {
-  "name": "HTML-JS with Live Preview",
-  "image": "mcr.microsoft.com/devcontainers/codespaces-linux",
-  "extensions": [
-    "ms-vscode.live-preview"
-  ]
+	"name": "Default Linux Universal",
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.live-server"
+			]
+		}
+	}
 }
